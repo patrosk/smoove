@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+:root {
+  --pink: #ea2070;
+  --dark: #0f0030;
+  --blue: #394aee;
+  --purple: #b135ec;
+}
