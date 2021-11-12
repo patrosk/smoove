@@ -14,6 +14,8 @@ body {
   --purple: #b135ec;
 }
 
+/* SECTIONS STYLING */
+/* HERO */
 .hero {
   width: 100%;
   height: 720px;
@@ -21,7 +23,9 @@ body {
 }
 .hero img {
   width: 100%;
+  height: 100%;
 }
+/* NEWSLETTER */
 .newsletter {
   width: 100%;
   height: 730px;
@@ -39,11 +43,24 @@ body {
   background-color: whitesmoke;
   margin-top: 5rem;
 }
+/* IMAGES */
 .images {
   width: 100%;
   height: 730px;
   background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 }
+.images div {
+  width: 15rem;
+  height: 10rem;
+  background-color: var(--pink);
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+/* MERCHANDISE */
 .merchandise {
   width: 100%;
   height: 730px;
@@ -54,13 +71,19 @@ body {
   justify-content: center;
 }
 .text-block {
-  width: 345px;
+  width: 19rem;
   height: 115px;
   background-color: whitesmoke;
   margin-bottom: 3rem;
 }
 .merch-image {
-  width: 345px;
-  height: 345px;
+  width: 19rem;
+  height: 19rem;
   background-color: whitesmoke;
+}
+/* FOOTER STYLING */
+footer {
+  width: 100%;
+  height: 350px;
+  background-color: black;
 }
