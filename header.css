@@ -2,6 +2,12 @@
  
  
 }
+.menu-text {
+  position: absolute;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  font-size: 0.5rem;
+}
 
 /* hamburger bar  */
 
@@ -28,11 +34,7 @@
     gap: 1rem;
     align-items: flex-end;
     margin: 1rem;
-    height: 100vh;
-    justify-content: center;
-    
-    
-    
+    justify-content: center;  
   }
   .nav-menu li {
     list-style: none;
@@ -64,6 +66,11 @@
   #nav-checkbox:checked ~ label.nav-toggle .menu {
     display: none;
   }
-  li:hover a {
-    color: rgb(112, 111, 111);
+
+
+  .items-nav{
+    display: flex;
+    justify-content: center;
   }
+ 
+  
