@@ -6,12 +6,10 @@ body {
   margin: 0;
   font-size: 16px;
 }
-
 :root {
-  --pink: #ea2070;
-  --dark: #0f0030;
-  --blue: #394aee;
-  --purple: #b135ec;
+  --white: #fafafa;
+  --black: #262327;
+  --green: #00c690;
   --desktop-body-font: 20px;
   --mobile-body-font: 16px;
 }
