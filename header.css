@@ -1,6 +1,6 @@
 .nav {
- background-color: #262327;
- padding-top: 1rem;
+  background-color: var(--black);
+  padding-top: 1rem;
 }
 .menu-text {
   position: absolute;
@@ -12,75 +12,67 @@
 
 /* hamburger bar  */
 
-  .nav-toggle {
-    position: absolute;
-    margin: 0rem 1rem;
-    
-  }
-  svg {
-    width: 1.5rem;
-    fill: black;
-  }
-  
-  .close {
-    display: none;
-  }
-  
-  .nav-checkbox {
-    display: none;
-  }
-  .nav-menu {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    align-items: flex-end;
-    margin: 1rem;
-    justify-content: center;  
-  }
-  .nav-menu li {
-    list-style: none;
-    display: none;
-    
-  }
-  .list-box{
-    
-    
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 1rem;
-    
-  }
-  
- 
-  a {
-    text-decoration: none;
-    color: #fafafa;
-    font-size: 1.2rem;
-  }
-  #nav-checkbox:checked ~ ul.nav-menu li {
-    display: block;
-  }
-  #nav-checkbox:checked ~ label.nav-toggle .close {
-    display: block;
-  }
-  #nav-checkbox:checked ~ label.nav-toggle .menu {
-    display: none;
-  }
+.nav-toggle {
+  position: absolute;
+  margin: 0rem 1rem;
+}
+svg {
+  width: 1.5rem;
+  fill: black;
+}
 
+.close {
+  display: none;
+}
 
-  .items-nav{
-    display: flex;
-    justify-content: center;
-  }
-  .logo-svg {
-    width: 10rem;
-  }
- 
+.nav-checkbox {
+  display: none;
+}
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-end;
+  margin: 1rem;
+  justify-content: center;
+}
+.nav-menu li {
+  list-style: none;
+  display: none;
+}
+.list-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fafafa;
+  font-size: 1.2rem;
+}
+#nav-checkbox:checked ~ ul.nav-menu li {
+  display: block;
+}
+#nav-checkbox:checked ~ label.nav-toggle .close {
+  display: block;
+}
+#nav-checkbox:checked ~ label.nav-toggle .menu {
+  display: none;
+}
+
+.items-nav {
+  display: flex;
+  justify-content: center;
+}
+.logo-svg {
+  width: 10rem;
+}
+
 .menu {
   fill: #fafafa;
 }
 .close {
   fill: #fafafa;
 }
-  

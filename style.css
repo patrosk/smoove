@@ -1,11 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
-body {
-  margin: 0;
-  font-size: 16px;
-}
 :root {
   --white: #fafafa;
   --black: #262327;
@@ -13,8 +8,15 @@ body {
   --desktop-body-font: 20px;
   --mobile-body-font: 16px;
 }
+body {
+  margin: 0;
+  font-size: 16px;
+  color: var(--white);
+  font-family: "Roboto", sans-serif;
+}
 h1 {
   font-size: 64px;
+  font-family: "Russo One", sans-serif;
 }
 h2 {
   font-size: 32px;
@@ -26,7 +28,7 @@ section {
 /* HERO */
 .hero-one {
   width: 100%;
-  background-color: lightgrey;
+  background-color: var(--green);
 }
 .hero-one img {
   width: 100%;
@@ -34,7 +36,7 @@ section {
 }
 .hero-two {
   width: 100%;
-  background-color: lightgrey;
+  background-color: var(--green);
 }
 .hero-two img {
   width: 100%;
@@ -43,11 +45,36 @@ section {
 /* NEWSLETTER */
 .newsletter {
   width: 100%;
-  background-color: grey;
+  background-color: var(--black);
   font-size: var(--mobile-body-font);
+  padding-bottom: 38px;
+}
+.newsletter h2 {
+  color: var(--green);
 }
 .newsletter img {
   width: 100%;
+}
+.newsletter h2,
+p,
+form {
+  padding-right: 17px;
+  padding-left: 17px;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  gap: 10px;
+}
+.email input {
+  border: none;
+  height: 30px;
+}
+.email button {
+  height: 30px;
+  background-color: #e1e1e1;
+  border: none;
 }
 
 /* NEWSLETTER DESKTOP VERSION */
@@ -67,7 +94,7 @@ section {
 /* IMAGES */
 .images {
   width: 100%;
-  background-color: lightgrey;
+  background-color: var(--green);
   display: flex;
 }
 .studio-m img {
@@ -76,11 +103,19 @@ section {
 .studio-s img {
   width: 30vw;
 }
+/* TEXTBLOCK SECTION */
+.text-block {
+  background-color: var(--green);
+  padding-left: 17px;
+  padding-right: 17px;
+}
 /* MERCHANDISE */
 /* MOBILE VERSION */
 .merchandise {
+  padding-left: 17px;
+  padding-right: 17px;
   width: 100%;
-  background-color: darkgrey;
+  background-color: var(--green);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -95,7 +130,7 @@ section {
   width: 304px;
 }
 .merch-item-small {
-  width: 150px;
+  width: 145px;
 }
 
 /* DESKTOP VERSION */
@@ -142,9 +177,18 @@ section {
 .detail-image img {
   width: 100%;
 }
+/* SLOGAN SECTION */
+.slogan {
+  background-color: var(--green);
+  padding-left: 17px;
+  padding-right: 17px;
+}
 /* FOOTER STYLING */
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   width: 100%;
   height: 350px;
-  background-color: black;
+  background-color: var(--black);
 }
