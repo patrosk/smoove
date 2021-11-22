@@ -80,6 +80,18 @@ footer ul img {
   height: 15px;
   transform: translateY(50px);
 }
+.footer-about-us-dropdown {
+  display: none;
+}
+.footer-menu-dropdown {
+  display: none;
+}
+.footer-support-dropdown {
+  display: none;
+}
+.footer-contact-dropdown {
+  display: none;
+}
 .black-line {
   width: 100%;
   background-color: black;
