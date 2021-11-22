@@ -12,7 +12,7 @@
 }
 body {
   margin: 0;
-  font-size: 16px;
+  font-size: 18px;
   color: var(--white);
   font-family: "Roboto", sans-serif;
 }
@@ -22,7 +22,7 @@ h1 {
 }
 h2 {
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 300;
   font-family: "Russo One", sans-serif;
 }
 h3 {
@@ -201,13 +201,13 @@ form {
   opacity: 1;
 }
 
-/* DETAIL SECTION */
-.detail {
+/* INTERIOR SECTION */
+.interior {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
-.detail-image img {
+.interior-image img {
   width: 100%;
 }
 /* SLOGAN SECTION */
@@ -225,9 +225,99 @@ footer {
   width: 100%;
   background-color: var(--black);
 }
+footer .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer input {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 10px;
+  background-color: var(--grey);
+  padding: 12px 20px;
+  border: none;
+  color: var(--white);
+}
+footer textarea {
+  width: 100%;
+  height: 175px;
+  resize: none;
+  background-color: var(--grey);
+  border: none;
+  padding: 12px 20px;
+  font-family: "Roboto", sans-serif;
+  color: var(--white);
+  margin-bottom: 40px;
+}
+footer input:focus textarea:focus {
+  border: 3px solid var(--green);
+}
+input .message {
+  height: 175px;
+}
 .white-line {
   width: 90%;
   height: 2px;
   background-color: var(--white);
   border-radius: 2px;
+}
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer li {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+footer ul img {
+  height: 15px;
+  transform: translateY(50px);
+}
+.black-line {
+  width: 100%;
+  background-color: black;
+  height: 2px;
+}
+.footer-contact {
+  height: 80px;
+  width: 100%;
+  padding-left: 20px;
+}
+.footer-contact img {
+  padding-right: 50px;
+  transform: translateY(8px);
+}
+.social-media {
+  width: 100%;
+  height: 275px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social-media img {
+  padding: 10px;
+}
+.social-media p {
+  /* font-size: 16px; */
+  padding-top: 40px;
+}
+footer .logo {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
 }
