@@ -6,6 +6,7 @@
   --black: #262327;
   --green: #00c690;
   --blue: #008eb2;
+  --grey: #393d3e;
   --desktop-body-font: 20px;
   --mobile-body-font: 18px;
 }
@@ -21,6 +22,7 @@ h1 {
 }
 h2 {
   font-size: 40px;
+  font-weight: 400;
   font-family: "Russo One", sans-serif;
 }
 h3 {
@@ -217,9 +219,15 @@ form {
 /* FOOTER STYLING */
 footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   width: 100%;
-  height: 350px;
   background-color: var(--black);
+}
+.white-line {
+  width: 90%;
+  height: 2px;
+  background-color: var(--white);
+  border-radius: 2px;
 }
