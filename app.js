@@ -3,11 +3,11 @@ const menuClosed = document.querySelector('.close');
 const listBox = document.querySelector('.list-box');
 
 menuOpen.addEventListener('click', () => {
-    listBox.classList.add('hej');
+    listBox.classList.add('menu-down');
   });
 
   menuClosed.addEventListener('click', () => {
-    listBox.classList.remove('hej');
+    listBox.classList.remove('menu-down');
   });
 
 
