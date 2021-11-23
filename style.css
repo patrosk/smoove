@@ -69,23 +69,24 @@ section {
   width: 100%;
 }
 .newsletter h3,
-p,
-form {
+.newsletter p,
+.newsletter form {
   padding-right: 17px;
   padding-left: 17px;
 }
 .email {
   display: flex;
   flex-direction: column;
-  width: 180px;
+  width: 100%;
   gap: 10px;
 }
 .email input {
   border: none;
-  height: 30px;
+  height: 45px;
+  padding: 12px 20px;
 }
 .email button {
-  height: 30px;
+  height: 45px;
   background-color: #e1e1e1;
   border: none;
 }
@@ -147,9 +148,6 @@ form {
   width: 100%;
   background-color: var(--white);
   color: var(--black);
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: center; */
   gap: 1rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -169,7 +167,20 @@ form {
   width: 100%;
   object-fit: cover;
 }
-
+.merch-item-large p,
+.merch-items-small p {
+  text-align: end;
+  padding: 0;
+  margin-top: 5px;
+}
+.merchandise button {
+  width: 100%;
+  border: none;
+  background-color: var(--green);
+  color: var(--white);
+  height: 45px;
+  font-size: 20px;
+}
 /* DESKTOP VERSION */
 .merchandise-desktop {
   width: 100%;
