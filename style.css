@@ -115,7 +115,7 @@ section {
 .choose-light img {
   width: 100%;
 }
-.movie-time {
+.interior {
   width: 100%;
 }
 /* DESKTOP VERSION */
@@ -180,7 +180,12 @@ section {
   color: var(--white);
   height: 45px;
   font-size: 20px;
+  transition: 1s ease;
 }
+.merchandise button:hover {
+  filter: saturate(2.5);
+}
+
 /* DESKTOP VERSION */
 .merchandise-desktop {
   width: 100%;
@@ -255,7 +260,7 @@ section {
 .movie-time h2 {
   padding-left: 17px;
 }
-.interior-image img {
+.movie-time-image img {
   width: 100%;
 }
 /* SLOGAN SECTION */

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="media_queries.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
@@ -257,7 +257,7 @@
         <label for="message"></label>
         <textarea class="message" type="text" name="message" id="message" placeholder="Write your message here"></textarea>
       </form>
-      <button type="submit">Submit</button>
+      <button class="submit" type="submit">Submit</button>
     </div>
   </div>
 
@@ -277,14 +277,14 @@
 
 <div class="footer-menu">
   <ul>
-    <li><h4>About us</h4><img src="/images/vector.png" alt=""></li>
+    <li><h4>About us</h4><button class="dropdown-btn"><img src="/images/vector.png" alt=""></button></li>
     <div class="footer-about-us-dropdown">
     <p>Smoove - the car of the future</p>
     <p>Read more about Geely <a href=#>here</a></p>
     </div>
     <div class="black-line"></div>
 
-    <li><h4>Menu</h4><img src="/images/vector.png" alt=""></li>
+    <li><h4>Menu</h4><button class="dropdown-btn"><img src="/images/vector.png" alt=""></button></li>
     <div class="footer-menu-dropdown">
     <p>Explore Smoove</p>
     <p>Ownership</p>
@@ -293,7 +293,7 @@
     </div>
     <div class="black-line"></div>
 
-    <li><h4>Support</h4><img src="/images/vector.png" alt=""></li>
+    <li><h4>Support</h4><button class="dropdown-btn"><img src="/images/vector.png" alt=""></button></li>
     <div class="footer-support-dropdown">
     <p>Services</p>
     <p>Support</p>
@@ -303,7 +303,7 @@
     </div>
     <div class="black-line"></div>
 
-    <li><h4>Contact</h4><img src="/images/vector.png" alt=""></li>
+    <li><h4>Contact</h4><button class="dropdown-btn"><img src="/images/vector.png" alt=""></button></li>
     <div class="footer-contact-dropdown">
     <p>Smoove AB</p>
     <p>Karossvägen 8, 405 31 <br>

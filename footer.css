@@ -43,7 +43,7 @@ footer input:focus textarea:focus {
 input .message {
   height: 175px;
 }
-footer button {
+footer .submit {
   height: 60px;
   width: 120px;
   background-color: var(--green);
@@ -52,9 +52,10 @@ footer button {
   margin-top: 20px;
   margin-bottom: 60px;
   font-size: 20px;
+  transition: 1s ease;
 }
-footer button:hover {
-  background-color: #02a378;
+footer .submit:hover {
+  filter: saturate(2.5);
 }
 .white-line {
   width: 90%;
@@ -77,9 +78,21 @@ footer li {
   display: flex;
   justify-content: space-between;
 }
+footer .dropdown-btn {
+  background-color: unset;
+  border: none;
+  height: 20px;
+  width: 30px;
+  transform: translateY(60px);
+  display: flex;
+  justify-content: center;
+}
+footer ul img:hover {
+  filter: saturate(2.5);
+}
 footer ul img {
   height: 15px;
-  transform: translateY(50px);
+  transition: 1s ease;
 }
 .footer-about-us-dropdown {
   display: none;
