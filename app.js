@@ -1,14 +1,22 @@
 // NAVBAR MENU
 const menuOpen = document.querySelector(".menu");
 const menuClosed = document.querySelector(".close");
-const listBox = document.querySelector(".list-box");
+const navMenu = document.querySelector(".nav-menu");
+const nav = document.querySelector(".nav");
 
 menuOpen.addEventListener("click", () => {
-  listBox.classList.add("menu-down");
+  navMenu.classList.add("menu-down");
+});
+menuOpen.addEventListener('click', () => {
+  nav.classList.add("nav-black")
+});
+menuClosed.addEventListener("click", () => {
+  nav.classList.remove("nav-black");
 });
 
+
 menuClosed.addEventListener("click", () => {
-  listBox.classList.remove("menu-down");
+  navMenu.classList.remove("menu-down");
 });
 
 // FOOTER DROPDOWN
