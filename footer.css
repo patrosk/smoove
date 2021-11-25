@@ -11,6 +11,8 @@ footer .contact {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-left: 17px;
+  padding-right: 17px;
 }
 .contact-container {
   display: flex;
@@ -63,6 +65,10 @@ footer .submit:hover {
   background-color: var(--white);
   border-radius: 2px;
 }
+.logo-footer {
+  height: 70px;
+  width: 300px;
+}
 .footer-menu {
   display: flex;
   flex-direction: column;
@@ -92,6 +98,14 @@ footer ul img {
   height: 15px;
   transition: 1s ease;
 }
+/* @keyframes myanim {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 50px;
+  }
+} */
 .dropdown {
   display: none;
   transition: 3s ease-in-out;
@@ -99,6 +113,7 @@ footer ul img {
 .show-dropdown {
   display: inherit;
 }
+
 .black-line {
   width: 100%;
   background-color: black;
@@ -125,7 +140,6 @@ footer ul img {
   padding: 10px;
 }
 .social-media p {
-  /* font-size: 16px; */
   padding-top: 40px;
 }
 footer .logo {
