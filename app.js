@@ -7,17 +7,31 @@ const nav = document.querySelector(".nav");
 menuOpen.addEventListener("click", () => {
   navMenu.classList.add("menu-down");
 });
+
+menuClosed.addEventListener("click", () => {
+  navMenu.classList.remove("menu-down");
+});
+
+const menuGoAway = document.querySelector(".menu-down");
+document.addEventListener('scroll', () => {
+  navMenu.classList.remove("menu-down");
+})
+
+
+
+
+
 menuOpen.addEventListener('click', () => {
   nav.classList.add("nav-black")
 });
+
 menuClosed.addEventListener("click", () => {
   nav.classList.remove("nav-black");
 });
 
 
-menuClosed.addEventListener("click", () => {
-  navMenu.classList.remove("menu-down");
-});
+
+
 
 // FOOTER DROPDOWN
 const listItems = document.querySelectorAll(".footer-menu li");
@@ -33,3 +47,4 @@ listItems.forEach((listItem) => {
     dropdown.classList.toggle("show-dropdown");
   });
 });
+
