@@ -256,16 +256,16 @@ section {
   flex-direction: column;
   background-color: var(--green);
   color: var(--black);
+  padding-bottom: 0px;
 }
 .movie-time h2 {
+  padding-top: 2rem;
   padding-left: 17px;
 }
-.movie-time-image img {
+.movie-time .text-block {
+  padding-bottom: 4rem;
+}
+.movie-time img {
   width: 100%;
-}
-/* SLOGAN SECTION */
-.slogan {
-  background-color: var(--green);
-  padding-left: 17px;
-  padding-right: 17px;
+  object-fit: cover;
 }
