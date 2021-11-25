@@ -65,6 +65,10 @@ footer .submit:hover {
   background-color: var(--white);
   border-radius: 2px;
 }
+.logo-footer {
+  height: 70px;
+  width: 300px;
+}
 .footer-menu {
   display: flex;
   flex-direction: column;
