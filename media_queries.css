@@ -9,8 +9,6 @@
     width: 34%;
    }
   }
- 
-
 
 /* FOOTER */
 @media screen and (min-width: 700px) {
@@ -35,5 +33,24 @@
   }
   footer .logo {
     justify-content: start;
+  }
+
+  .logo-footer {
+    height: 100px;
+    width: 300px;
+    margin-left: 18px;
+  }
+  footer ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .black-line {
+    display: none;
+  }
+  footer .dropdown-btn {
+    display: none;
+  }
+  .dropdown {
+    display: inherit;
   }
 }
