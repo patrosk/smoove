@@ -14,7 +14,7 @@ body {
   margin: 0;
   font-size: 18px;
   color: var(--white);
-  background-color: var(--white);
+  background-color: var(--black);
   font-family: "Roboto", sans-serif;
 }
 h1 {
@@ -86,7 +86,7 @@ section {
   background-color: var(--green);
   font-size: var(--mobile-body-font);
   padding-bottom: 38px;
-  color: var(--black);
+  color: var(--white);
 }
 .newsletter img {
   width: 100%;
@@ -125,7 +125,7 @@ section {
   padding-left: 17px;
   padding-right: 17px;
   width: 100%;
-  color: var(--black);
+  color: var(--white);
 }
 /* CHOOSE LIGHT SECTION */
 /* MOBILE VERSION */
@@ -133,7 +133,7 @@ section {
   padding-left: 17px;
   padding-right: 17px;
   width: 100%;
-  color: var(--black);
+  color: var(--white);
 }
 .choose-light img {
   width: 100%;
@@ -169,8 +169,8 @@ section {
   padding-left: 17px;
   padding-right: 17px;
   width: 100%;
-  background-color: var(--white);
-  color: var(--black);
+  background-color: var(--black);
+  color: var(--white);
   gap: 1rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -212,7 +212,7 @@ section {
 /* DESKTOP VERSION */
 .merchandise-desktop {
   width: 100%;
-  background-color: darkgrey;
+  background-color: var(--black);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -227,19 +227,19 @@ section {
 .text-block-desktop {
   width: 19rem;
   height: 115px;
-  background-color: whitesmoke;
+  background-color: var(--black);
   margin-bottom: 2rem;
 }
 .merch-image-desktop {
   width: 19rem;
   height: 19rem;
-  background-color: whitesmoke;
+  background-color: var(--black);
 }
 
 /* 360 SECTION */
 /* PURE CSS ATTEMPT */
 .three-sixty h2 {
-  color: var(--black);
+  color: var(--white);
   padding-left: 17px;
   padding-right: 17px;
 }
