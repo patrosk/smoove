@@ -177,6 +177,7 @@ section {
 }
 .merchandise img {
   width: 100%;
+  transition: 0.5s ease;
 }
 .merch-items-small {
   width: 100%;
@@ -189,6 +190,12 @@ section {
 .merch-item-small {
   width: 100%;
   object-fit: cover;
+}
+.merch-image {
+  overflow: hidden;
+}
+.merch-image:hover img {
+  transform: scale(1.3);
 }
 .merch-item-large p,
 .merch-items-small p {
@@ -204,6 +211,7 @@ section {
   height: 45px;
   font-size: 20px;
   transition: 1s ease;
+  outline: none;
 }
 .merchandise button:hover {
   filter: saturate(2.5);

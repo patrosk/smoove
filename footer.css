@@ -28,6 +28,7 @@ footer input {
   border: none;
   border-style: hidden;
   color: var(--white);
+  outline: none;
 }
 footer textarea {
   width: 100%;
@@ -38,9 +39,12 @@ footer textarea {
   padding: 12px 20px;
   font-family: "Roboto", sans-serif;
   color: var(--white);
+  outline: none;
 }
 footer input:focus textarea:focus {
-  border: 3px solid var(--green);
+  border: 1.5px solid var(--green);
+  outline: 1.5px solid var(--green);
+  /* doesn't work */
 }
 input .message {
   height: 175px;
@@ -55,6 +59,7 @@ footer .submit {
   margin-bottom: 60px;
   font-size: 20px;
   transition: 1s ease;
+  outline: none;
 }
 footer .submit:hover {
   filter: saturate(2.5);
@@ -90,9 +95,7 @@ footer .dropdown-btn {
   transform: translate(250px, -85px);
   display: flex;
   justify-content: center;
-}
-footer .dropdown-btn:focus {
-  border: none;
+  outline: none;
 }
 footer ul img:hover {
   filter: saturate(2.5);

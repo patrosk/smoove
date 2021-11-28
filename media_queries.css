@@ -1,14 +1,14 @@
 @media only screen and (min-width: 700px) {
-   .logo-svg{
-        display: block;
-   }
-   .logo-svg-mobile {
-       display: none;
-   }
-   .menu-down {
-    width: 34%;
-   }
+  .logo-svg {
+    display: block;
   }
+  .logo-svg-mobile {
+    display: none;
+  }
+  .menu-down {
+    width: 34%;
+  }
+}
 
 /* FOOTER */
 @media screen and (min-width: 375px) {
@@ -123,5 +123,12 @@
   }
   .logo-footer {
     margin-left: 80px;
+  }
+  .social-media {
+    flex-direction: row;
+    padding-left: 300px;
+  }
+  .social-media p {
+    transform: translate(220px, -20px);
   }
 }
