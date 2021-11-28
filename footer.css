@@ -91,6 +91,9 @@ footer .dropdown-btn {
   display: flex;
   justify-content: center;
 }
+footer .dropdown-btn:focus {
+  border: none;
+}
 footer ul img:hover {
   filter: saturate(2.5);
 }
@@ -108,10 +111,10 @@ footer ul img {
 } */
 .dropdown {
   display: none;
-  transition: 3s ease-in-out;
+  transition: 1s ease-in;
 }
 .show-dropdown {
-  display: inherit;
+  display: inline;
 }
 
 .black-line {
