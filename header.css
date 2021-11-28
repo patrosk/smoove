@@ -2,12 +2,15 @@
   padding-top: 1rem;
  position: fixed;
  width: 100%;
- margin:0;
+ padding-bottom:0;
+ margin: 0;
+ padding-bottom: 1rem;
 }
 .nav-black {
   
-  
-  
+  transition: .2s;
+  background: rgba(7, 7, 7, 0.5);
+  width: 100%;
 }
 
 
@@ -35,10 +38,10 @@ svg {
   align-items: flex-end;
   position: absolute;
   width: 0;
-  margin:0;
+  padding:0;
   height: 100vh;
-  padding-top: 5rem;
-  transition: 1s;
+ margin: 0;
+  transition: .2s;
 
 }
 .nav-menu li {
@@ -51,17 +54,18 @@ svg {
 }
 .nav-menu li:hover a {
   color: var(--green);
-  transition: ease-in;
-  transition: .5s;
+  transition: ease-out;
+  transition: .2s;
 }
 
 .menu-down {
-  
+  margin-top: 1rem;
+  padding-top: 5rem;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   gap: 1rem;
-  transition: 1s;
+  transition: .1s;
   background: rgba(7, 7, 7, 0.5);
   width: 100%;
   
