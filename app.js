@@ -6,24 +6,18 @@ const nav = document.querySelector(".nav");
 
 menuOpen.addEventListener("click", () => {
   navMenu.classList.add("menu-down");
+  document.body.style.position = "fixed";
 });
 
 menuClosed.addEventListener("click", () => {
   navMenu.classList.remove("menu-down");
+  document.body.style.position = "";
 });
 
-const menuGoAway = document.querySelector(".menu-down");
-document.addEventListener("scroll", () => {
-  navMenu.classList.remove("menu-down");
-});
 
-menuOpen.addEventListener("click", () => {
-  nav.classList.add("nav-black");
-});
 
-menuClosed.addEventListener("click", () => {
-  nav.classList.remove("nav-black");
-});
+
+
 
 // CHOOSE LIGHT
 const image = document.querySelector(".color .light");
