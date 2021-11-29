@@ -2,18 +2,11 @@
   padding-top: 1rem;
  position: fixed;
 width: 100%;
- 
  z-index: 2;
- 
-
 
 }
-.nav-black {
 
 
-  background: var(--black);
-  
-}
 
 
 /* hamburger bar  */
@@ -54,7 +47,9 @@ svg {
   transform: translateX(0);
   background: var(--black);
   width: 100%;
-  
+  position: absolute;
+  top: 0;
+  z-index: -1;
 }
 .nav-menu li {
   list-style: none;
@@ -93,6 +88,8 @@ a {
 .items-nav {
   display: flex;
   justify-content: center;
+  
+
 }
 .logo-svg-mobile {
   width: 2.5rem;
