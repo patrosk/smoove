@@ -13,9 +13,13 @@ menuClosed.addEventListener("click", () => {
 });
 
 const menuGoAway = document.querySelector(".menu-down");
-document.addEventListener("scroll", () => {
-  navMenu.classList.remove("menu-down");
-});
+// document.addEventListener("scroll", () => {
+//   navMenu.classList.remove("menu-down");
+// });
+if (menu-down) {
+  
+}
+
 
 menuOpen.addEventListener("click", () => {
   nav.classList.add("nav-black");
