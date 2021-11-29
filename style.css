@@ -236,6 +236,8 @@ h1 {
   padding-top: 2rem;
   padding-bottom: 2rem;
   display: none;
+  padding-left: 45px;
+  padding-right: 45px;
 }
 .merchandise-desktop img {
   width: 100%;
@@ -246,10 +248,13 @@ h1 {
   background-color: var(--black);
   margin-bottom: 2rem;
 }
+.merch-items {
+  display: flex;
+  justify-content: space-between;
+}
 .merch-image-desktop {
   width: 19rem;
   height: 19rem;
-  background-color: var(--black);
 }
 
 /* 360 SECTION */
