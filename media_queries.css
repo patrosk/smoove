@@ -58,6 +58,12 @@
 }
 
 @media screen and (min-width: 1000px) {
+  h2 {
+    font-size: 48px;
+  }
+  p {
+    font-size: 18px;
+  }
   /* HERO */
   .hero-one-img {
     display: none;
@@ -72,6 +78,18 @@
   .hero-two-img-desktop {
     display: block;
     width: 100%;
+  }
+  .text-block {
+    flex-direction: row;
+    gap: 2rem;
+    padding: 4rem;
+  }
+  .text-block h2 {
+    width: 55%;
+  }
+  .text-block p {
+    padding-top: 4rem;
+    width: 60%;
   }
   /* NEWSLETTER */
   .newsletter-img {
@@ -123,12 +141,12 @@
   }
 
   /* MERCHANDISE */
-  /* .merchandise {
+  .merchandise {
     display: none;
   }
   .merchandise-desktop {
     display: block;
-  } */
+  }
 
   /* FOOTER */
   form {

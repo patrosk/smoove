@@ -15,6 +15,10 @@ body {
   background-color: var(--black);
   font-family: "Roboto", sans-serif;
 }
+.scroll-container {
+  scroll-behavior: smooth;
+  scroll-snap-type: mandatory;
+}
 h1 {
   font-size: 40px;
   font-family: "Russo One", sans-serif;
@@ -57,7 +61,6 @@ section {
 }
 h1 {
   width: 90%;
-  /* z-index: 1; */
   position: absolute;
   margin-top: 7rem;
   margin-left: 1.5rem;
@@ -71,6 +74,18 @@ h1 {
 }
 .hero-two-img-desktop {
   display: none;
+}
+.text-block {
+  padding-left: 17px;
+  padding-right: 17px;
+  width: 100%;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+}
+.text-block p {
+  padding-top: 1rem;
+  padding-bottom: 4rem;
 }
 
 /* NEWSLETTER */
@@ -115,13 +130,6 @@ h1 {
   background-color: whitesmoke;
 } */
 
-/* TEXTBLOCK SECTION */
-.text-block {
-  padding-left: 17px;
-  padding-right: 17px;
-  width: 100%;
-  color: var(--white);
-}
 /* CHOOSE LIGHT SECTION */
 /* MOBILE VERSION */
 .studio-img-desktop {
