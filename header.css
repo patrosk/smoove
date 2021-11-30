@@ -36,10 +36,11 @@ svg {
   transition: transform 1s;
   transform: translateX(-100%);
   
+  
 }
 .menu-down {
   margin-top: 0;
-  padding-top: 5rem;
+  padding-top: 10rem;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -50,6 +51,7 @@ svg {
   position: absolute;
   top: 0;
   z-index: -1;
+  
 }
 .nav-menu li {
   list-style: none;

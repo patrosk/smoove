@@ -77,11 +77,12 @@ footer .submit:hover {
 .footer-menu {
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
 }
 footer ul {
   list-style: none;
   padding-left: 0;
+  
 }
 footer li {
   padding-left: 20px;
@@ -92,7 +93,8 @@ footer .dropdown-btn {
   border: none;
   height: 20px;
   width: 30px;
-  transform: translate(250px, -85px);
+  /* this made the website blöda: */
+  /* transform: translate(250px, -85px); */
   display: flex;
   justify-content: center;
   outline: none;
@@ -152,7 +154,7 @@ footer ul img {
   padding-top: 40px;
 }
 footer .logo {
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   padding-top: 50px;
