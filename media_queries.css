@@ -99,6 +99,9 @@
     display: block;
     width: 100%;
   }
+  .newsletter-box {
+    width: 50%;
+  }
   /* CHOOSE LIGHT */
   .choose-light-desktop {
     display: block;
@@ -146,6 +149,18 @@
   }
   .merchandise-desktop {
     display: block;
+  }
+
+  /* 360 */
+  video {
+    display: none;
+  }
+  .three-sixty h3 {
+    display: block;
+    padding-left: 3rem;
+  }
+  .three-sixty-viewer {
+    display: flex;
   }
 
   /* FOOTER */

@@ -14,11 +14,6 @@ menuClosed.addEventListener("click", () => {
   document.body.style.position = "";
 });
 
-
-
-
-
-
 // CHOOSE LIGHT
 const image = document.querySelector(".color .light");
 const greenButton = document.querySelector(".green");
@@ -26,21 +21,21 @@ const lilacButton = document.querySelector(".lilac");
 const pinkButton = document.querySelector(".pink");
 
 greenButton.addEventListener("click", () => {
-  image.src = "./images/sideviewGREEN.jpg";
+  image.src = "./images/green960.jpg";
   greenButton.classList.toggle("chosen");
   pinkButton.classList.remove("chosen");
   lilacButton.classList.remove("chosen");
 });
 
 lilacButton.addEventListener("click", () => {
-  image.src = "./images/sideviewLILAC.jpg";
+  image.src = "./images/lilac960.jpg";
   lilacButton.classList.toggle("chosen");
   pinkButton.classList.remove("chosen");
   greenButton.classList.remove("chosen");
 });
 
 pinkButton.addEventListener("click", () => {
-  image.src = "./images/sideviewPINK.jpg";
+  image.src = "./images/pink960.jpg";
   pinkButton.classList.toggle("chosen");
   lilacButton.classList.remove("chosen");
   greenButton.classList.remove("chosen");
@@ -53,21 +48,21 @@ const lilacButtonDesktop = document.querySelector(".lilac-desktop");
 const pinkButtonDesktop = document.querySelector(".pink-desktop");
 
 greenButtonDesktop.addEventListener("click", () => {
-  imageDesktop.src = "./images/sideviewGREEN.jpg";
+  imageDesktop.src = "./images/green1920.jpg";
   greenButtonDesktop.classList.toggle("chosen");
   pinkButtonDesktop.classList.remove("chosen");
   lilacButtonDesktop.classList.remove("chosen");
 });
 
 lilacButtonDesktop.addEventListener("click", () => {
-  imageDesktop.src = "./images/sideviewLILAC.jpg";
+  imageDesktop.src = "./images/lilac1920.jpg";
   lilacButtonDesktop.classList.toggle("chosen");
   pinkButtonDesktop.classList.remove("chosen");
   greenButtonDesktop.classList.remove("chosen");
 });
 
 pinkButtonDesktop.addEventListener("click", () => {
-  imageDesktop.src = "./images/sideviewPINK.jpg";
+  imageDesktop.src = "./images/pink1920.jpg";
   pinkButtonDesktop.classList.toggle("chosen");
   lilacButtonDesktop.classList.remove("chosen");
   greenButtonDesktop.classList.remove("chosen");
