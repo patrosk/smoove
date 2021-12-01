@@ -244,12 +244,7 @@ h1 {
 .merchandise-desktop img {
   width: 100%;
 }
-.text-block-desktop {
-  width: 19rem;
-  height: 115px;
-  background-color: var(--black);
-  margin-bottom: 2rem;
-}
+
 .merch-items {
   display: flex;
   justify-content: space-between;
@@ -257,6 +252,35 @@ h1 {
 .merch-image-desktop {
   width: 19rem;
   height: 19rem;
+}
+.merch-item ul {
+  padding: 1rem;
+  margin: 0;
+  font-size: 14px;
+}
+.merch-item ul li {
+  margin-top: 10px;
+}
+.merch-item ul li:first-child {
+  margin-top: 0;
+}
+
+.merch-item ul li:last-child {
+  list-style: none;
+  margin-top: 2rem;
+}
+.merch-item button {
+  width: 80%;
+  border: none;
+  background-color: var(--green);
+  color: var(--white);
+  height: 45px;
+  font-size: 20px;
+  transition: 1s ease;
+  outline: none;
+}
+.merch-item button:hover {
+  filter: saturate(2.5);
 }
 video {
   width: 100%;
