@@ -236,7 +236,7 @@
   .merch-image-desktop {
     /* width: 25rem;
     height: 25rem; */
-    /* overflow: hidden;  */
+    overflow: hidden;
   }
   .merch-image-desktop:hover img {
     transform: scale(1.3);
