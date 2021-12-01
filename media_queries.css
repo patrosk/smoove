@@ -118,6 +118,11 @@
   .studio-img {
     display: none;
   }
+  .choose-light-desktop p {
+    margin-top: 0;
+    padding-right: 3rem;
+    padding-left: 1rem;
+  }
   .studio-img-desktop {
     display: block;
     width: 100%;

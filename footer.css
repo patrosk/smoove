@@ -64,6 +64,9 @@ footer .submit {
 footer .submit:hover {
   filter: saturate(2.5);
 }
+footer .submit:active {
+  transform: scale(0.5);
+}
 .white-line {
   width: 90%;
   height: 2px;
@@ -82,7 +85,6 @@ footer .submit:hover {
 footer ul {
   list-style: none;
   padding-left: 0;
-  
 }
 footer li {
   padding-left: 20px;
