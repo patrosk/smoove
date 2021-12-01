@@ -103,8 +103,11 @@
 
     <section class="hero-one">
       <h1>Smoove; the light cycle for your relaxing future.</h1>
-      <img class="hero-one-img" src="/images/hero-1.jpg" />
-      <img class="hero-one-img-desktop" src="/images/hero-1-desktop.jpg" />
+      <picture>
+        <source srcset="/images/hero-1.jpg" media="(max-width: 999px)"/>
+        <source srcset="/images/hero-1-desktop.jpg" media="(min-width: 1000px)"/>
+        <img src="/images/hero-1.jpg" alt="">
+      </picture>
     </section>
 
     <section class="text-block">
@@ -114,8 +117,11 @@
     </section>
     
     <section class="hero-two">
-      <img class="hero-two-img" src="/images/hero-2.jpg" />
-      <img class="hero-two-img-desktop" src="/images/hero-2-desktop.jpg" />
+      <picture>
+        <source srcset="/images/hero-2.jpg" media="(max-width: 999px)"/>
+        <source srcset="/images/hero-2-desktop.jpg" media="(min-width: 1000px)"/>
+        <img src="/images/hero-2.jpg" alt="">
+      </picture>
     </section>
     
     <section class="text-block">
@@ -126,9 +132,12 @@
     </section>
 <!-- NEWSLETTER -->
     <section class="newsletter">
-      <img class="newsletter-img" src="/images/newsletter1000.png" alt="">
-      <img class="newsletter-img-desktop" src="/images/newsletter1920.jpg" alt="">
-      <div class="newsletter-box">
+      <picture>
+        <source srcset="/images/newsletter1000.png" media="(max-width: 999px)"/>
+        <source srcset="/images/newsletter1008.jpg" media="(min-width: 1000px)"/>
+        <img src="/images/newsletter1000.png" alt="">
+      </picture>
+     <div class="newsletter-box">
         <div><h3>Sign up for our newsletter</h3>
         <p>Sign up for our  newsletter and get free
           tickets to Smoove Lightcycle talk. The 
@@ -146,15 +155,15 @@
     </section>
 
 <!-- CHOOSE LIGHT -->
-<!-- MOBILE VERSION -->
 <section class="text-block">
   <h2>Choose your <strong>light</strong> - be younique</h2>
   <p>The Smoove Light Cycle is made with cutting edge 
     technology and is the embodiment of top-of-the-line design. 
     All to make you stand out from the crowd.<br><br>
-  Each Smoove Light Cycle owner is unique: what is your colour?</p>
-
-</section>
+    Each Smoove Light Cycle owner is unique: what is your colour?</p>
+  </section>
+  
+  <!-- MOBILE VERSION -->
     <section class="choose-light">
       <img class="studio-img" src="images/studio.jpg" alt="">
       <div class="color">
@@ -167,13 +176,12 @@
       </div>
     </section>
       <div class="interior">
-        <img class="interior-img" src="/images/interior1920.jpg" alt="">
+        <img class="interior-img" src="/images/interior960.jpg" alt="">
         <img class="interior-img-desktop" src="/images/interior1080.jpg" alt="">
       </div>
 
 <!-- DESKTOP VERSION -->
     <section class="choose-light-desktop">
-      <!-- <h2>Choose your <strong>light</strong> - be younique</h2> -->
       <img class="studio-img-desktop" src="images/studio-desktop.jpg" alt="">
       <div class="color">
         <img class="light-desktop" src="images/green1920.jpg" alt="">
@@ -194,7 +202,7 @@
         perfect ride in your Light Cycle. </p>
       <div class="merch-item-large">
         <div class="merch-image">
-          <img srcset="/images/watch540.jpg" alt="">
+          <img src="/images/watch1080.jpg" alt="">
         </div>
         <p>Northern Watch</p>
       </div>
@@ -278,7 +286,13 @@
     Then let the cycle drive you! In Smoove Light Cycle you can relax, watch a movie, 
     turn on some music and let the vehicle do the work.</p>
   </section>
-  <div class="movie-time-img"><img src="/images/movie-time960.jpg" alt=""></div>
+  <div class="movie-time-img">
+    <picture>
+      <source srcset="/images/movie-time960.jpg" media="(max-width: 999px)"/>
+      <source srcset="/images/movie-time1920.jpg" media="(min-width: 1000px)"/>
+      <img src="/images/movie-time960.jpg" alt="">
+    </picture>
+    <!-- <img src="/images/movie-time960.jpg" alt=""></div> -->
 </section>
 
 
