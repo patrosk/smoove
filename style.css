@@ -269,8 +269,12 @@ h1 {
   transition: 1s ease;
   outline: none;
 }
+
 .merch-item button:hover {
   filter: saturate(2.5);
+}
+.merch-item button:active {
+  transform: scale(0.5);
 }
 .soon-available {
   font-size: 12px;
