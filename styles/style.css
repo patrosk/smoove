@@ -197,7 +197,7 @@ h1 {
 
 /* MERCHANDISE */
 /* MOBILE VERSION */
-.merchandise {
+/* .merchandise {
   padding-left: 17px;
   padding-right: 17px;
   width: 100%;
@@ -255,36 +255,32 @@ h1 {
 .merchandise button:active {
   transform: scale(0.85);
   border: 1px solid var(--white);
+} */
+
+/* MERCH NEW  */
+.merchandise {
+  width: 100%;
+  padding: 1rem;
+  padding-top: 0;
+}
+.merchandise img {
+  width: 100%;
+  transition: 0.5s ease;
+}
+.text-block {
+  padding: 0;
 }
 
-/* DESKTOP VERSION */
-.merchandise-desktop {
-  width: 100%;
-  background-color: var(--black);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  display: none;
-  padding-left: 45px;
-  padding-right: 45px;
-}
-.merchandise-desktop img {
-  width: 100%;
-}
 .merch-items {
+  width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  gap: 3rem;
 }
-.merch-image-desktop {
-  width: 19rem;
-  height: 19rem;
-}
+
 .merch-item ul {
-  padding: 1rem;
-  margin: 0;
+  padding: 0 1rem;
   font-size: 14px;
 }
 .merch-item ul li {
@@ -321,8 +317,6 @@ h1 {
 .merch-item {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  max-width: 300px;
   gap: 20px;
 }
 

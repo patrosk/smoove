@@ -14,6 +14,10 @@
   p {
     font-size: 20px;
   }
+  /* merchandise  */
+  .merch-items {
+    flex-direction: row;
+  }
 }
 
 @media screen and (min-width: 375px) {
@@ -105,6 +109,8 @@
     height: 60px;
   }
 
+  /* MERCHANDISE */
+
   /* CHOOSE LIGHT */
   .choose-light-desktop {
     display: block;
@@ -149,39 +155,6 @@
   }
   .colors {
     width: 65%;
-  }
-
-  /* MERCHANDISE */
-  .merchandise {
-    display: none;
-  }
-  .merchandise-desktop {
-    display: block;
-  }
-  .merchandise-desktop img {
-    width: 100%;
-    transition: 0.5s ease;
-  }
-  .merch-image-desktop {
-    overflow: hidden;
-  }
-  .merch-image-desktop:hover img {
-    transform: scale(1.3);
-  }
-  /* 360 */
-  video {
-    display: none;
-  }
-  .three-sixty h2 {
-    padding-left: 32px;
-    padding-top: 4rem;
-  }
-  .three-sixty h3 {
-    display: block;
-    padding-left: 32px;
-  }
-  .three-sixty-viewer {
-    display: flex;
   }
 
   /* MOVIE TIME */
@@ -265,17 +238,7 @@
     transform: translate(30px, -15px);
   }
 }
-@media screen and (min-width: 1079px) {
-  /* MERCHANDISE */
-  .merchandise-desktop {
-    padding-left: 62px;
-    padding-right: 62px;
-  }
-  .merch-items p {
-    text-align: end;
-    padding: 0;
-    margin-top: 5px;
-  }
+
 
   /* THREE-SIXTY */
   .three-sixty h2 {
