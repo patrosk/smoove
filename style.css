@@ -38,6 +38,12 @@ h4 {
   font-size: 40px;
   font-weight: 300;
 }
+h5 {
+  font-family: "Russo One", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0;
+}
 strong {
   font-weight: 300;
   color: var(--green);
@@ -112,6 +118,7 @@ h1 {
   border: none;
   height: 45px;
   padding: 12px 20px;
+  outline: none;
 }
 .email button {
   height: 45px;
@@ -154,17 +161,32 @@ h1 {
 .green,
 .green-desktop {
   background-color: var(--green);
+  transition: 1s ease;
 }
 .lilac,
 .lilac-desktop {
   background-color: #8d1bcf;
+  transition: 1s ease;
 }
 .pink,
 .pink-desktop {
   background-color: #f831e4;
+  transition: 1s ease;
+}
+.green:active,
+.green-desktop:active {
+  transform: scale(0.5);
+}
+.lilac:active,
+.lilac-desktop:active {
+  transform: scale(0.5);
+}
+.pink:active,
+.pink-desktop:active {
+  transform: scale(0.5);
 }
 .chosen {
-  border: 2px solid var(--white);
+  border: 1px solid var(--white);
 }
 .interior-img {
   width: 100%;
@@ -212,6 +234,10 @@ h1 {
   text-align: end;
   padding: 0;
   margin-top: 5px;
+}
+.merch-item-large strong,
+.merch-item-small strong {
+  font-weight: 450;
 }
 .merchandise button {
   width: 100%;
@@ -263,7 +289,6 @@ h1 {
 .merch-item ul li:first-child {
   margin-top: 0;
 }
-
 .merch-item button {
   width: 70%;
   border: none;
@@ -279,6 +304,7 @@ h1 {
 }
 .merch-item button:active {
   transform: scale(0.5);
+  border: 1px solid var(--white);
 }
 .soon-available {
   font-size: 12px;

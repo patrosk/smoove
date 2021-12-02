@@ -14,6 +14,15 @@ menuClosed.addEventListener("click", () => {
   document.body.style.position = "";
 });
 
+// NEWSLETTER
+const emailInput = document.querySelector(".newsletter input");
+const placeholder = document.querySelector(".newsletter input placeholder");
+const submitButton = document.querySelector(".newsletter button");
+
+submitButton.addEventListener("click", () => {
+  emailInput.textContent = placeholder;
+});
+
 // CHOOSE LIGHT
 const image = document.querySelector(".color .light");
 const greenButton = document.querySelector(".green");
@@ -66,6 +75,22 @@ pinkButtonDesktop.addEventListener("click", () => {
   pinkButtonDesktop.classList.toggle("chosen");
   lilacButtonDesktop.classList.remove("chosen");
   greenButtonDesktop.classList.remove("chosen");
+});
+
+// CONTACT US
+const firstName = document.getElementById("first-name");
+const lastName = document.getElementById("last-name");
+const emailInputFooter = document.querySelector(".footer-email");
+const phone = document.getElementById("phone");
+const message = document.querySelector("footer textarea");
+const submitButtonFooter = document.querySelector("footer button");
+
+submitButtonFooter.addEventListener("click", () => {
+  firstName.value = "";
+  lastName.value = "";
+  emailInputFooter.value = "";
+  phone.value = "";
+  message.value = "";
 });
 
 // FOOTER DROPDOWN
