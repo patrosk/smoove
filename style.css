@@ -252,6 +252,10 @@ h1 {
 .merchandise button:hover {
   filter: saturate(2.5);
 }
+.merchandise button:active {
+  transform: scale(0.85);
+  border: 1px solid var(--white);
+}
 
 /* DESKTOP VERSION */
 .merchandise-desktop {
