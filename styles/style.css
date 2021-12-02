@@ -5,7 +5,6 @@
   --white: #fafafa;
   --black: #262327;
   --green: #00c690;
-  --blue: #008eb2;
   --grey: #393d3e;
 }
 body {
@@ -219,6 +218,9 @@ h1 {
 .merchandise img {
   width: 100%;
   transition: 0.5s ease;
+}
+.merch-image {
+  overflow: hidden;
 }
 .merchandise img:hover {
   overflow: hidden;
