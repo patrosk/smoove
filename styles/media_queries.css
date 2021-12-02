@@ -14,7 +14,7 @@
   p {
     font-size: 20px;
   }
-  /* merchandise  */
+  /* MERCHANDISE  */
   .merch-items {
     flex-direction: row;
   }
@@ -36,6 +36,7 @@
     transform: translate(300px, -85px);
   }
 }
+
 @media screen and (min-width: 465px) {
   /* FOOTER */
   footer .dropdown-btn {
@@ -78,6 +79,7 @@
   p {
     font-size: 32px;
   }
+
   /* HERO */
   .text-block {
     flex-direction: row;
@@ -92,10 +94,14 @@
     padding-top: 2rem;
     width: 60%;
   }
+
   /* NEWSLETTER */
   .newsletter-box {
     width: 90%;
     background-color: var(--green);
+  }
+  .newsletter picture {
+    width: 115%;
   }
   .newsletter img {
     height: 100%;
@@ -106,6 +112,9 @@
   .newsletter {
     display: flex;
     background-color: var(--black);
+    padding-bottom: 0;
+  }
+  .newsletter p {
     padding-bottom: 0;
   }
   .email {
@@ -162,6 +171,22 @@
   .colors {
     width: 65%;
   }
+
+  /* THREE-SIXTY */
+  .three-sixty h2 {
+    padding-left: 64px;
+  }
+  .three-sixty h3 {
+    display: block;
+    padding-left: 64px;
+  }
+  .three-sixty video {
+    display: none;
+  }
+  .three-sixty-viewer {
+    display: block;
+  }
+
   /* MOVIE TIME */
   .movie-time {
     flex-direction: row;
@@ -242,22 +267,8 @@
     width: 35px;
     transform: translate(30px, -15px);
   }
-
-  /* THREE-SIXTY */
-  .three-sixty h2 {
-    padding-left: 64px;
-  }
-  .three-sixty h3 {
-    display: block;
-    padding-left: 64px;
-  }
-  .three-sixty video {
-    display: none;
-  }
-  .three-sixty-viewer {
-    display: block;
-  }
-
+}
+@media screen and (min-width: 1340px) {
   /* FOOTER */
   .footer-contact:first-child {
     transform: translateX(0px);
@@ -280,8 +291,6 @@
   .social-media p {
     transform: translate(220px, -20px);
   }
-}
-@media screen and (min-width: 1340px) {
   .merch-image-desktop {
     width: 25rem;
     height: 25rem;

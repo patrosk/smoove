@@ -107,6 +107,9 @@ h1 {
   padding-right: 17px;
   padding-left: 17px;
 }
+.newsletter p {
+  padding-bottom: 2rem;
+}
 .email-button {
   padding-right: 17px;
   padding-left: 17px;
@@ -141,7 +144,6 @@ h1 {
 }
 
 /* CHOOSE LIGHT SECTION */
-/* MOBILE VERSION */
 .studio-img-desktop {
   display: none;
 }

@@ -97,8 +97,6 @@ footer .dropdown-btn {
   border: none;
   height: 20px;
   width: 30px;
-  /* this made the website blöda: */
-  /* transform: translate(250px, -85px); */
   display: flex;
   justify-content: center;
   outline: none;
