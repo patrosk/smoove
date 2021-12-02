@@ -19,6 +19,8 @@
 @media screen and (min-width: 375px) {
   /* FOOTER */
   footer .dropdown-btn {
+    margin-top: 0;
+    margin-bottom: 0;
     transform: translate(300px, -85px);
   }
 }

@@ -102,6 +102,8 @@ footer .dropdown-btn {
   display: flex;
   justify-content: center;
   outline: none;
+  margin-top: -2rem;
+  margin-bottom: 2rem;
 }
 footer ul img:hover {
   filter: saturate(2.5);
