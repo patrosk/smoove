@@ -108,9 +108,21 @@ h1 {
   padding-right: 17px;
   padding-left: 17px;
 }
+.email-button {
+  padding-right: 17px;
+  padding-left: 17px;
+  width: 100%;
+}
+.newsletter-box {
+  width: 100%;
+}
+.newsletter form {
+  width: 100%;
+}
 .email {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 100%;
   gap: 10px;
 }
@@ -119,11 +131,14 @@ h1 {
   height: 45px;
   padding: 12px 20px;
   outline: none;
+  width: 100%;
 }
 .email button {
   height: 45px;
   background-color: #e1e1e1;
   border: none;
+  outline: none;
+  width: 100%;
 }
 
 /* CHOOSE LIGHT SECTION */
@@ -285,7 +300,7 @@ h1 {
 .merch-item ul {
   padding: 1rem;
   margin: 0;
-  font-size: 14px;
+  font-size: 18px;
 }
 .merch-item ul li {
   margin-top: 10px;
@@ -311,7 +326,7 @@ h1 {
   border: 1px solid var(--white);
 }
 .soon-available {
-  font-size: 12px;
+  font-size: 16px;
   margin-top: 0;
 }
 .new {
