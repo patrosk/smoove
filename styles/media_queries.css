@@ -237,8 +237,6 @@
     width: 35px;
     transform: translate(30px, -15px);
   }
-}
-
 
   /* THREE-SIXTY */
   .three-sixty h2 {
@@ -247,6 +245,12 @@
   .three-sixty h3 {
     display: block;
     padding-left: 64px;
+  }
+  .three-sixty video {
+    display: none;
+  }
+  .three-sixty-viewer {
+    display: block;
   }
 
   /* FOOTER */
@@ -272,7 +276,6 @@
     transform: translate(220px, -20px);
   }
 }
-
 @media screen and (min-width: 1340px) {
   .merch-image-desktop {
     width: 25rem;
