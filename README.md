@@ -27,7 +27,7 @@ Link to live site: https://smoove-group8.netlify.app/
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for more
+This project is licensed under the MIT License - see the LICENSE file for more
 details.
 
 
