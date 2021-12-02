@@ -16,11 +16,10 @@ menuClosed.addEventListener("click", () => {
 
 // NEWSLETTER
 const emailInput = document.querySelector(".newsletter input");
-const placeholder = document.querySelector(".newsletter input placeholder");
 const submitButton = document.querySelector(".newsletter button");
 
 submitButton.addEventListener("click", () => {
-  emailInput.textContent = placeholder;
+  emailInput.value = "";
 });
 
 // CHOOSE LIGHT
