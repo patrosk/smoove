@@ -21,6 +21,25 @@
 }
 
 @media screen and (min-width: 375px) {
+  video {
+    display: none;
+  }
+  .three-sixty h2 {
+    padding-left: 32px;
+    padding-top: 4rem;
+  }
+  .three-sixty h3 {
+    display: block;
+    padding-left: 32px;
+  }
+  .three-sixty-viewer {
+    display: flex;
+  }
+
+  /* MOVIE TIME */
+  .movie-time {
+    flex-direction: row;
+  }
   /* FOOTER */
   footer .dropdown-btn {
     margin-top: 0;
@@ -108,8 +127,6 @@
   .email button {
     height: 60px;
   }
-
-  /* MERCHANDISE */
 
   /* CHOOSE LIGHT */
   .choose-light-desktop {
