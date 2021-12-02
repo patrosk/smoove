@@ -295,8 +295,9 @@ h1 {
 }
 
 .merch-item ul {
-  padding: 0 1rem;
-  font-size: 14px;
+  padding: 1rem;
+  margin: 0;
+  font-size: 18px;
 }
 .merch-item ul li {
   margin-top: 10px;
